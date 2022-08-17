@@ -1,0 +1,275 @@
+<html>
+    <head>
+        <title>Flipkart</title>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="boot.css"/>
+        <script src="https://kit.fontawesome.com/c4338603d0.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <div>
+                <img src="logo.png" alt="fb" class="logoImg"/>
+                <div class="topnav">
+                    <input type="text" placeholder="Search for product,brand and more">
+                </div>
+                <div class="login">
+                    <input type="submit" name="submit"
+                    value="Login">
+                </div>
+                <div>
+                    <button class="Seller">Become a Seller</button>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">More
+                    <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                      <li role="presentation"><a role="menuitem" href="#">Notification</a></li>
+                      <li role="presentation"><a role="menuitem" href="#">24x7 Customer care</a></li>
+                      <li role="presentation"><a role="menuitem" href="#">Advertise</a></li>
+                      <li role="presentation" class="divider"></li>
+                      <li role="presentation"><a role="menuitem" href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="cart">
+                    <img src="cart.png">
+                    <span>Cart</span>
+                </div>
+            </div>
+                 
+        </header>
+        <div id="allproduct">
+            <div class="offer">
+                <img src="offer icon.jpg" alt="offer" class="offerImg"/><br>
+                <span>Top Offers</span>
+            </div>
+            <div class="grocery">
+                <img src="grocery icon.jpeg" alt="grocery" class="groceryImg"/><br>
+                <span>Grocery</span>
+            </div>
+            <div class="mobile">
+                <img src="mobile.jpg" alt="mobile" class="mobileImg"/><br>
+                <span>Mobiles</span>
+            </div>
+            <div class="fashion">
+                <img src="fashion.jpg" alt="fashion" class="fashionImg"/><br>
+                <span>Fashion</span>
+            </div>
+            <div class="electronics">
+                <img src="electronics.png" alt="elect" class="electronicsImg"/><br>
+                <span>Electronics</span>
+            </div>
+            <div class="home">
+                <img src="home.jpg" alt="home" class="homeImg"/><br>
+                <span>Home</span>
+            </div>
+            <div class="appliences">
+                <img src="appliences.jpg" alt="appliences" class="appliencesImg"/><br>
+                <span>Appliances</span>
+            </div>
+            <div class="travel">
+                <img src="travel.jpeg" alt="travel" class="travelImg"/><br>
+                <span>Travel</span>
+            </div>
+            <div class="toys">
+                <img src="toys.jpg" alt="toys" class="toysImg"/><br>
+                <span>Toys</span>
+            </div>
+        </div>
+        <div id="offersliders">
+            <div id="devCarousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#devCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#devCarousel" data-slide-to="1"></li>
+                    <li data-target="#devCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                    <img src="img1.jpg" alt="travel" class="slideImg"/>
+                </div>
+                <div class="item">
+                    <img src="img2.png" alt="travel" class="slideImg"/>
+                </div>
+                <div class="item">
+                    <img src="img3.jpg" alt="travel" class="slideImg"/>
+                </div>
+                <a class="left carousel-control" href="#devCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#devCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div id="DealsoftheDay">
+            <h2>Deals of the Day</h2>
+            <img class="time" src="timer.jpg" height="24" width="24">
+            <div>
+                <button class="btnred">VIEW ALL</button>
+            </div>
+            <hr>
+            <div class="gallery">
+                <a target="_blank" href="furniture.jpg">
+                  <img src="furniture.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Home Furniture Range</h4>
+                    <span>up 80% OFF</span>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="glass.jpg">
+                  <img src="glass.jpg" alt="glass" width="700" height="500">
+                </a>
+                <div class="desc">
+                    <h4>Stylish Sunglass</h4>
+                    <span>under$599+upto10%OFF</span>
+                    <h6>Best selling Deal</h6>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="wallets.jpg">
+                  <img src="wallets.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>wallets & Belts</h4>
+                    <span>Min 40% off+Extra 10%</span>
+                    <span>Don't Miss the Deal</span>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="watch.jpg">
+                  <img src="watch.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Titan,Fastract,...</h4>
+                    <span>Min 60% off</span>
+                    <span>Best Selling Styles!</span>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="applien.jpg">
+                  <img src="applien.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Home Appliences</h4>
+                    <span>Min 50%</span>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="toy.jpg">
+                  <img src="toy.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Teddy</h4>
+                    <span>Upto 80%Extra 10% off</span>
+                    <span>Best Selling Toy</span>
+                </div>
+              </div>
+        </div>
+        <div id="SuggestedforYou">
+            <h2>Suggested For You</h2>
+            <img class="time" src="timer.jpg" height="24" width="24">
+            <div>
+                <button class="btngreen">VIEW ALL</button>
+            </div>
+            <hr>
+            <div class="gallery">
+                <a target="_blank" href="stickers.jpg">
+                  <img src="stickers.jpg" alt="Cinque Terre" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Home Furniture Range</h4>
+                    <span>up 80% OFF</span>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="handbags.jpg">
+                  <img src="handbags.jpg" alt="glass" width="700" height="500">
+                </a>
+                <div class="desc">
+                    <h4>Stylish Sunglass</h4>
+                    <span>under$599+upto10%OFF</span>
+                    <h6>Best selling Deal</h6>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="dress.jpg">
+                  <img src="dress.jpg" alt="Northern Lights" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>wallets & Belts</h4>
+                    <span>Min 40% off+Extra 10%</span>
+                    <span>Don't Miss the Deal</span>
+                </div>
+              </div>
+              
+              <div class="gallery">
+                <a target="_blank" href="sandals.jpg">
+                  <img src="sandals.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Titan,Fastract,...</h4>
+                    <span>Min 60% off</span>
+                    <span>Best Selling Styles!</span>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="mobile backcover.jpg">
+                  <img src="mobile backcover.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Home Appliences</h4>
+                    <span>Min 50%</span>
+                </div>
+              </div>
+
+              <div class="gallery">
+                <a target="_blank" href="ear pods.jpg">
+                  <img src="ear pods.jpg" alt="Mountains" width="600" height="400">
+                </a>
+                <div class="desc">
+                    <h4>Teddy</h4>
+                    <span>Upto 80%Extra 10% off</span>
+                    <span>Best Selling Toy</span>
+                </div>
+              </div>
+        </div>
+        <footer>
+          <hr>
+            <h3>&COPY;KESHETI HariKrishna</h3>
+            <div class="fotDiv">
+                <ul>
+                    <li>About Us</li>
+                    <li>Contact Us</li>
+                    <li>Careers</li>
+                    <li>Flipkart Stories</li>
+                </ul>
+            </div>
+            <div class="fotDiv">
+                <ul>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                </ul>
+            </div>
+            <div class="fotDiv noBorder">
+                <ul>
+                    <li>SOCIAL</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

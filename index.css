@@ -1,0 +1,288 @@
+header{
+    height: 80px;
+    /*border: 5px solid blue;*/
+    background-color: black;
+}
+.logoimg{
+    height: 46px;
+    margin-top: 16px;
+    margin-left: 120;
+}
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -42px;
+    margin-right:610px;
+    font-size: 18px;
+    width: 420px;
+}
+.login {
+    float: right;
+    padding: 6px;
+    margin-top: -42px;
+    margin-right:510px;
+    font-size: 18px;
+    width: 80px;
+}
+.Seller{
+    float: right;
+    padding: 6px;
+    margin-top: -40px;
+    margin-right:-260px;
+    font-size: 20px;
+    width: 180px;
+    background-color: black;
+    color:#fff;
+}
+.btn-default {
+    color: white;
+    background-color: black;
+    border-color:black;
+}
+.btn{
+    display: inline-block;
+    float: right;
+    padding: 6px;
+    margin-top: -40px;
+    margin-right:-400px;
+    font-size: 15px;
+    width: 131px;
+    background-color: black;
+    color:#fff;
+}
+.cart{
+    float: right;
+    padding: 6px;
+    margin-top: -45px;
+    margin-right:-600px;
+    font-size: 20px;
+    width: 180px;
+    background-color: black;
+    color:#fff;
+}
+#allproduct{
+    height: 120px;
+    /*border: 5px dotted green;*/
+}
+.offer{
+    height: 70px;
+    width: 70px;
+    margin-left: 3%;
+    margin-top: 10px;
+}
+.offer:hover {
+    border: 1px solid #777;
+  }
+.offerImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.grocery{
+    height: 70px;
+    width: 70px;
+    margin-left: 15%;
+    margin-top: -68px;
+}
+.grocery:hover {
+    border: 1px solid #777;
+  }
+.groceryImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 1px;
+    margin-top: -2px;
+}
+.mobile{
+    height: 70px;
+    width: 70px;
+    margin-left: 27%;
+    margin-top: -68px; 
+}
+.mobile:hover {
+    border: 1px solid #777;
+  }
+.mobileImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 1px;
+    margin-top: -2px;
+}
+.fashion{
+    height: 70px;
+    width: 70px;
+    margin-left: 37%;
+    margin-top: -68px; 
+}
+.fashion:hover {
+    border: 1px solid #777;
+  }
+.fashionImg{
+    height: 70px;
+    width: 70px;
+    margin-left: -5px;
+    margin-top: -2px;
+}
+.electronics{
+    height: 70px;
+    width: 70px;
+    margin-left: 47%;
+    margin-top: -68px; 
+}
+.electronics:hover {
+    border: 1px solid #777;
+  }
+.electronicsImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.home{
+    height: 70px;
+    width: 70px;
+    margin-left: 57%;
+    margin-top: -68px;
+}
+.home:hover {
+    border: 1px solid #777;
+  }
+.homeImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: -4px;
+}
+.appliences{
+    height: 70px;
+    width: 70px;
+    margin-left: 67%;
+    margin-top: -68px;
+}
+.appliences:hover {
+    border: 1px solid #777;
+  }
+.appliencesImg{
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+    margin-top: -10px;
+}
+.travel{
+    height: 70px;
+    width: 70px;
+    margin-left: 77%;
+    margin-top: -68px;
+}
+.travel:hover {
+    border: 1px solid #777;
+  }
+.travelImg{
+    height: 70px;
+    width: 70px;
+    margin-left: -5px;
+    margin-top: -6px;
+}
+.toys{
+    height: 70px;
+    width: 70px;
+    margin-left: 87%;
+    margin-top: -80px;
+}
+.toys:hover {
+    border: 1px solid #777;
+  }
+.toysImg{
+    height: 70px;
+    width: 70px;
+    margin-left: -8px;
+    margin-top: 5px;
+}
+#offersliders{
+    height: 350px;
+    /*border: 5px groove pink;*/
+
+}
+.slideImg{
+    width:100%;
+    height:335px !important;
+}
+#DealsoftheDay{
+    height: 350px;
+    /*border: 5px solid brown;*/
+
+}
+.time{
+    margin-top: -37px;
+    margin-left: 270px;
+}
+.btnred{
+    margin-left: 90%;
+    margin-top: -40px;
+    height: 43px;
+    width: 127px;
+    font-size: 15px;
+    background-color: #3b46e7;
+    color:#fff;
+}
+.gallery {
+    margin: 10px;
+    /*border: 3px solid #ccc;*/
+    float: left;
+    width: 200px;
+    margin-top: -5px;
+  }
+  
+.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+  }
+#bigbrand{
+    height: 200px;
+    border: 5px solid rgb(68, 2, 35);
+}
+#SuggestedforYou{
+    height: 430px;
+    /*border: 5px solid rgb(165, 42, 104);*/
+}
+.btngreen{
+    margin-left: 90%;
+    margin-top: -40px;
+    height: 43px;
+    width: 127px;
+    font-size: 15px;
+    background-color: #3b46e7;
+    color:#fff;
+}
+footer{
+    height: 200px;
+    /*border: 5px solid rgb(165, 132, 42);*/
+    background-color: rgb(29, 13, 13);
+    color: #fff;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+.fotDiv{
+    width: 31%;
+    float: left;
+    border-right: 2px solid white;
+}
+ 
+.noBorder{
+    border: none;
+}
